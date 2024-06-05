@@ -9,5 +9,3 @@ class Solution:
             backward.append(j)
         if "".join(forward) == "".join(backward): 
             return True 
-        else: 
-            return False 
